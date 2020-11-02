@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-items: center;
+    line-height: 3rem;
+    background: #00bcd4;
+    color: #fff;
+
+    .header-left {
+        width: 2.5rem;
+        float: left;
+    }
+
+    .header-input {
+        flex: 1;
+        line-height: 2rem;
+        background: #fff;
+        border-radius: .5rem;
+        margin: 0.3rem 0;
+        color: #ccc;
+    }
+
+    .header-right {
+        width: 4rem;
+        float: right;
+        text-align: center;
+    }
+}
