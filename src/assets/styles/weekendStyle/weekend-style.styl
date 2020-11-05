@@ -1,0 +1,24 @@
+@import "../mixins.styl"
+.title
+    line-height: 3rem
+    background: #eee
+    text-indent: .2rem
+    margin-top: .1rem
+.item-img-wrapper
+    overflow: hidden
+    height:0
+    padding-bottom: 54%
+    .item-img
+        width:100%
+.item-info
+    padding: .3rem .1rem
+        
+    .item-title
+        line-height: 1.5rem
+        font-size: 1rem
+        // 在此調用ellipsis()函數,作用是:太多文字時,會顯示省略號的函數,此方法定義在mixins.styl檔案裏
+        ellipsis()
+    .item-desc
+        line-height: 1.5rem
+        color:#ccc
+        ellipsis()

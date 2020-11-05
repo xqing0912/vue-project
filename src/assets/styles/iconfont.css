@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "iconfont";
+  src: url('./iconfont/iconfont.eot?t=1597972831707');
+  /* IE9 */
+  src: url('./iconfont/iconfont.eot?t=1597972831707#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAARcAAsAAAAACSwAAAQPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDSAqFJIQsATYCJAMYCw4ABCAFhG0HUxvdB8gehXEbHYrQXn0r3RkNJeXh3/3Q+5L8FMG1ClDWsyqr6qqyJpIwEm5nSk1uws+PhaT5f0//rhmEPGkCHpy1UYfspOnA9EEzvgQ/+gtwAwSMJf7/7x23bIPNCxTIV2zNRdsedaLSOKDAxhoYSMA/kAgT8eCxG7+374lDI6gG3Q1nmhhx5dME2o3aS2zVOzASSCvIpECckjgCpCOL0sEKrfrasLKId0BCa3rirAPgrf58/ALmSZM0GTlrZ9+LB1y/Kj/7A7H/WUfzacAu50KuI2MOUIibRs8ZyGbmQNrT/uLWAJ1aJeUXHlufmT/zevbn/38iBQmETvqXRyMrkiAqqOnElI1sw1dlLkm1W6FJRmsOTQpaL2iS0P6BstMy1AVHdOETAP4g1DlzskbIolddxlReVAP2bL6um7RW7h/XF6+dsFIZmjLar9hYpXWkPFsjqrRB64D+lRWHBydFU9kT7HjSwDUDTs1VS/lLg611YtD7GzbZ5aIyzUvL492A8+GWl0L22lSfGPTYO7kqW1LClvLKykTlcgovpWyJerTHnrRgctMlQx9N4zWzu9DS7GqRJlYm0sLLqxq5t2/vv3PnwK1bUTdvGtEtRBlJGimrbmrY2fr6Rs0TKoRT0RhYB+rWQaJ+p/VgB+XfWe17+ep8vJcwIyJSCHWi6nvuXXdEedx93GPdfR1MTU2vKdySX59mNah33zRuKaxNy4ypjrGG+1v2G95SjIx8yhpGtUYNSUnFvs2JfGmRYfu0ZWUF2P+e3a9ua/Xt6kKwd0ljc4Rr8sRwkuYHjSQ1mxifbc18Bu7JtUPPn0MdULur2hEdEUKKO1wKoOlpaCvzQ4QYC1EWUJ9jV7UnZDrFNVjtA9R+97UaSAfw/xt0D5INzitoP+c1h00/8unxU1kIuQJA/s3J/l++47Ny2dkTSo5fpeUK+FIYyoPh/2wB0yQvXWuw9O+QDmwomZxYa0nQfKRAtUeCW2vS3i38E4F+j5fyDQHeFVpLCiFpMQJZqzFCocxBo8M8VK0WoN0sn/UdBtAgUdow4yyA0KsLkm4fIeu1QSiUR9AY9haq3iBotxtqO3aYiJT1oFGEQXlwdApMcql4bNoZWVMajuLCWIQO5Zq9H6UFZBw2MzYt533QeJReYo4gETdnGAzGaCoO9pbz0NhYCk6gKT7KZYwJhkmwNzHBml5kzKXigKwVNBSCgeKBRUsBI3FR4mGyM0O2gn84FE4oFoLuQKaC+6FoAmTvMDPGTAcQfDTxg5BH6S+QCGeOwcBsHIZGiQPzhi5UbGcosITmYXwoLoYxYkIqgT0TbYYN1Rhvr4u7yl3QjtxYI0WOEk3UaNEcxSE4KsUj43EeEi+JrQMIISkpoIQCISWB0DSVBAAA') format('woff2'),
+    url('./iconfont/iconfont.woff?t=1597972831707') format('woff'),
+    url('./iconfont/iconfont.ttf?t=1597972831707') format('truetype'),
+    /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url('./iconfont/iconfont.svg?t=1597972831707#iconfont') format('svg');
+  /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
