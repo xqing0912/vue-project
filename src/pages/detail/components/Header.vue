@@ -60,5 +60,35 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-@import '~styles/detailStyle/header.styl'
+.header-abs
+    position: absolute;
+    left: 0.5rem
+    top: 0.5rem
+    width: 1.8rem
+    height: 1.8rem
+    line-height: 1.8rem
+    border-radius: .8rem
+    text-align: center
+    background: rgba(0, 0, 0, 0.7)
+    .header-abs-back
+        color: #ffffff
+        font-size: 1rem
+.header-fixed
+    z-index: 2
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    height: 2.5rem
+    line-height: 2.5rem
+    text-align: center
+    background: #00bcd4
+    font-size: 1.2rem
+    color: #fff
+    .header-fixed-back
+        position: absolute
+        left: .5rem
+        top: 0
+        font-size: 1.2rem
+        color: #fff
 </style>

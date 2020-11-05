@@ -63,5 +63,6 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
- @import '~styles/detailStyle/detail.styl'
+.content
+    height: 50rem
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="search">
-          <input v-model="keywords" class="search-input" type="text" placeholder="請輸入城市名稱" />
+        <input v-model="keywords" class="search-input" type="text" placeholder="請輸入城市名稱" />
     </div>
     <!-- 當有輸入keywords時，才顯示此div元素 -->
     <div class="search-content"
@@ -86,5 +86,34 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-@import '~styles/cityStyle/citySearch.styl'
+// @import '~styles/cityStyle/citySearch.styl'
+.search
+    height:1.6rem
+    background: #00bcd4
+    display: flex
+    justify-content: center
+    .search-input
+        box-sizing: border-box
+        width: 98%
+        height:1.3rem
+        padding: 0 .25rem
+        line-height: 1.2rem
+        text-align: center
+        border-radius: .15rem
+        border-style: none
+        color: #666
+.search-content
+    z-index: 1
+    overflow: hidden
+    position: absolute
+    top: 4.1rem;
+    left: 0
+    right: 0
+    bottom: 0
+    background: #eee
+    .search-item
+        line-height: 1.62rem
+        padding-left: .5rem
+        background: #fff
+        color:#666
 </style>
