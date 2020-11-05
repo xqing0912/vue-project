@@ -12,15 +12,15 @@ module.exports = {
     assetsPublicPath: '/',
     // 開發環境轉發，使用者訪問api路徑的時候，會自動替換成static/mock資料夾下的路徑,此功能是webpack-dev-server工具提供的
     proxyTable: {
-      '/api':{
+      '/api': {
         //  前端伺服器接口
         target: 'http://localhost:8080',
         //  連接本地後端伺服器接口
         // target: 'http://localhost:80',
         pathRewrite: {
           '^/api': '/static/mock',
-        //   //  請求api時，本地伺服器目錄下的api目錄下
-        //   // '^/api': '/api'
+          //   //  請求api時，本地伺服器目錄下的api目錄下
+          //   // '^/api': '/api'
         }
       }
     },
@@ -63,7 +63,7 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/',
+    assetsPublicPath: '/vue-project/',
 
     /**
      * Source Maps
