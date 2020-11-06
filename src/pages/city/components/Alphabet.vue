@@ -76,18 +76,5 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-.alphabet-list
-    .list
-        display: flex
-        flex-direction: column
-        justify-content: center
-        position: absolute
-        right: 0
-        top:1rem
-        bottom: 0
-        width: 1.2rem
-        .item
-            line-height: 1.2rem
-            text-align: center
-            color: #00bcd4
+@import '~styles/cityStyle/cityAlphabet.styl'
 </style>

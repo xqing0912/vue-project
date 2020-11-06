@@ -95,42 +95,5 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-.border-topbottom
-    &:before
-        border-color: #ccc
-    &:after
-        border-color: #ccc
-.border-bottom
-    &:before
-        border-color: #ccc
-.list
-    overflow: hidden
-    position: absolute
-    top: 4.1rem
-    left: 0
-    right 0
-    bottom: 0
-    .title
-        line-height: 1.6rem
-        background: #eee
-        padding-left: .2rem
-        color: #666
-        font-size: .9rem
-    .button-list
-        overflow: hidden
-        padding: .25rem 2rem .25rem .25rem
-        .button-wrapper
-            float: left
-            width: 33.33%
-            .button
-                margin: .25rem
-                padding: .2rem 0
-                text-align: center
-                border:.02rem solid #ccc
-                border-radius: .2rem
-    .item-list
-        .item
-            line-height: 2rem
-            color: #666
-            padding-left: .4rem
+@import '~styles/cityStyle/cityList.styl'
 </style>

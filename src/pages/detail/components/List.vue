@@ -28,20 +28,5 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-.item-title-icon
-    position: relative
-    left: 0.06rem
-    top: 0.34rem
-    display: inline-block
-    width: 1.36rem
-    height: 1.36rem
-    background: url("/static/img/ticket_icon.png") center center no-repeat
-    margin-right: 0.05rem
-    background-size: 13rem auto
-.item-title
-    line-height: 1.8rem
-    font-size: .9rem
-    padding: 0 0.4rem
-.item-children
-    padding: 0 .6rem
+@import '~styles/detailStyle/list.styl'
 </style>

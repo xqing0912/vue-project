@@ -45,7 +45,7 @@ export default {
     // 定義getHomeInfo函數獲取json資料，然後執行getHomeInfoSuccess這一函數，/api/路徑在gitignore文件中替換過
     getHomeInfo () {
       //  在請求Ajax時，把（city）放在請求的參數裏面
-      axios.get('/api/index-1.json?city=' + this.city)
+      axios.get('/api/index.json?city=' + this.city)
         .then(this.getHomeInfoSuccess)
     },
     // 定義getHomeInfoSuccess函數，接受回傳資料

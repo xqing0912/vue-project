@@ -33,7 +33,7 @@ export default {
   },
   methods: {
     getDetailInfo () {
-      axios.get('/api/detail-1.json', {
+      axios.get('/api/detail.json', {
         params: {
           id: this.$route.params.id
         }
@@ -63,6 +63,5 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-.content
-    height: 50rem
+ @import '~styles/detailStyle/detail.styl'
 </style>

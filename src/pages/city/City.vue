@@ -37,7 +37,7 @@ export default {
   },
   methods: {
     getCityInfo () {
-      axios.get('/api/city-1.json')
+      axios.get('/api/city.json')
         .then(this.handleGetCityInfo)
     },
     handleGetCityInfo (res) {
